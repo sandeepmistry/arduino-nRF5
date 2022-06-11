@@ -109,9 +109,9 @@ void loop( void ) ;
 #error "Unsupported GPIO_COUNT"
 #endif
 
-#define portOutputRegister(port)   ( &(port->OUTSET) )
+#define portOutputRegister(port)   ( &(port->OUT) )
 #define portInputRegister(port)    ( &(port->IN) )
-#define portModeRegister(port)     ( &(port->DIRSET) )
+#define portModeRegister(port)     ( &(port->DIR) )
 #define digitalPinHasPWM(P)        ( true )
 
 /*
