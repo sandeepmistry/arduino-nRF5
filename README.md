@@ -1,6 +1,6 @@
 # Arduino Core for Nordic Semiconductor nRF5 based boards
 
-[![Build Status](https://travis-ci.org/sandeepmistry/arduino-nRF5.svg?branch=master)](https://travis-ci.org/sandeepmistry/arduino-nRF5) [![OpenCollective](https://opencollective.com/arduino-nRF5/backers/badge.svg)](#backers)
+[![Build Status](https://github.com/sandeepmistry/arduino-nRF5/actions/workflows/compile.yml/badge.svg)](https://github.com/sandeepmistry/arduino-nRF5/actions/workflows/compile.yml) [![OpenCollective](https://opencollective.com/arduino-nRF5/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/arduino-nRF5/sponsors/badge.svg)](#sponsors)
 
 
