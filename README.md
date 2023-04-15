@@ -98,6 +98,7 @@ Become a sponsor and get your logo on our README on Github with a link to your s
 
 ### nRF51
  * [Plain nRF51 MCU](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822)
+ * [Adafruit BLE UART Friend](https://www.adafruit.com/product/2479)
  * [BBC micro:bit](https://microbit.org)
  * [Calliope mini](https://calliope.cc/en)
  * [Bluz DK](http://bluz.io)
