@@ -33,15 +33,15 @@ extern "C"
 {
 #endif // __cplusplus
 
-#define PINS_COUNT           (8u)
+#define PINS_COUNT           (32u)
 #define NUM_DIGITAL_PINS     (8u)
 #define NUM_ANALOG_INPUTS    (0u)
 #define NUM_ANALOG_OUTPUTS   (0u)
 
 // LEDs
-#define PIN_LED1                (19)
-#define PIN_LED2                (18)
-#define LED_BUILTIN             PIN_LED1
+#define PIN_LED_CONNECTED    (19)
+#define PIN_LED_MODE         (18)
+#define LED_BUILTIN          PIN_LED_MODE
 
 // Other digital pins
 #define PIN_DFU             (7)
