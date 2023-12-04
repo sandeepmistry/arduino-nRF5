@@ -534,6 +534,38 @@ CalliopeMini.menu.softdevice.s130.upload.maximum_size=151552
 CalliopeMini.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
 CalliopeMini.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_xxaa.ld
 
+CalliopeminiV3.name=Calliope mini V3
+
+CalliopeminiV3.vid.0=0x0d28
+CalliopeminiV3.pid.0=0x0204
+
+CalliopeminiV3.upload.tool=sandeepmistry:openocd
+CalliopeminiV3.upload.protocol=cmsis-dap
+CalliopeminiV3.upload.target=nrf52
+CalliopeminiV3.upload.maximum_size=524288
+CalliopeminiV3.upload.setup_command=transport select swd;
+CalliopeminiV3.upload.use_1200bps_touch=false
+CalliopeminiV3.upload.wait_for_upload_port=false
+CalliopeminiV3.upload.native_usb=false
+
+CalliopeminiV3.bootloader.tool=sandeepmistry:openocd
+
+CalliopeminiV3.build.mcu=cortex-m4
+CalliopeminiV3.build.f_cpu=64000000
+CalliopeminiV3.build.board=CALLIOPE_MINI_V3
+CalliopeminiV3.build.core=nRF5
+CalliopeminiV3.build.variant=CalliopeminiV3
+CalliopeminiV3.build.variant_system_lib=
+CalliopeminiV3.build.extra_flags=-DNRF52833_XXAA
+CalliopeminiV3.build.float_flags=-mfloat-abi=hard -mfpu=fpv4-sp-d16
+CalliopeminiV3.build.ldscript=nrf52833_xxaa.ld
+
+CalliopeminiV3.build.lfclk_flags=-DUSE_LFSYNT
+
+CalliopeminiV3.menu.softdevice.none=None
+CalliopeminiV3.menu.softdevice.none.softdevice=none
+CalliopeminiV3.menu.softdevice.none.softdeviceversion=
+
 BluzDK.name=Bluz DK
 
 BluzDK.upload.tool=sandeepmistry:openocd
