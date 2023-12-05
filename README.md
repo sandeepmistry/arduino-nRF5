@@ -82,7 +82,7 @@ Become a sponsor and get your logo on our README on Github with a link to your s
 
 ### nRF52833
  * [BBC micro:bit v2](https://microbit.org/new-microbit/)
-
+ * [Calliope mini V3](https://calliope.cc/calliope-mini-3)
 ### nRF52
  * [Plain nRF52 MCU](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832)
  * [Nordic Semiconductor nRF52 DK](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF52-DK)
