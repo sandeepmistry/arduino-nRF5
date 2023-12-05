@@ -14,14 +14,14 @@ extern "C"
 
 // Number of pins defined in PinDescription array
 
-#define PINS_COUNT			(35)
-#define NUM_DIGITAL_PINS	(35)
+#define PINS_COUNT			(41)
+#define NUM_DIGITAL_PINS	(41)
 #define NUM_ANALOG_INPUTS	(7)
 #define NUM_ANALOG_OUTPUTS	(0)
 
 // LEDs
 
-#define PIN_LED             (13)
+#define PIN_LED             (13) // This goes to Calliope mini header C12 (not a built in LED)
 #define LED_BUILTIN         PIN_LED
 
 // Buttons
@@ -72,6 +72,14 @@ static const uint8_t A6 = PIN_A6;
 #define PIN_WIRE1_SCL       (31)
 
 #ifdef __cplusplus
+
+// Calliope internal pins
+#define PIN_RGB (35)
+#define PIN_M_MODE (36)
+#define PIN_M0_DIR (37)
+#define PIN_M0_SPEED (38)
+#define PIN_M1_DIR (39)
+#define PIN_M1_SPEED (40)
 }
 #endif // __cplusplus
 

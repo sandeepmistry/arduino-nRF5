@@ -1,13 +1,16 @@
-/* Pins for Calliope mini V3 */
+/* Pins for Calliope mini V3 
+This file connects the hardware pin numbers on the left to the array position. 
+In Arduino IDE this array position is usually used when calling a pin by number, 
+e.g. pinMode(5, INPUT) sets BTN A to input mode */
 
 #include "variant.h"
 
 const uint32_t g_ADigitalPinMap[] = {
   // 0 - 4
-  2,  // A0, LEFT PAD
-  3,  // A1, MIDDLE PAD
-  4,  // A2, RIGHT PAD
-  31, // A3, COL3
+  2,  // A0, PAD 0
+  3,  // A1, PAD 1
+  4,  // A2, PAD 2
+  35, // Pad 3, not analog (Calliope exclusive pin)
   28, // A4, COL1
 
   // 5 - 9
@@ -24,11 +27,11 @@ const uint32_t g_ADigitalPinMap[] = {
   17, // SCK
   1,  // MISO
   13, // MOSI
-  34, // P1.02
+  29, // A5, C16_A1RX (Calliope change)
 
   // 17 + 18
-  (uint32_t)-1, // 3.3V
-  (uint32_t)-1, // 3.3V
+  34, // P1.02 C17 (Calliope exclusive pin)
+  31, // A3, COL3 (Calliope changed pin number)
 
   // 19 + 20
   26, // SCL
@@ -56,4 +59,11 @@ const uint32_t g_ADigitalPinMap[] = {
   40, // RX, P1.08
   6,  // TX
   
+  // 35 - 40 internal Calliope mini pins
+  7, // RGB
+  38, // MOTOR_MODE
+  33, // M0_DIR
+  27, // M0_SPEED
+  39, // M1_DIR
+  41, // M1_SPEED  
 };
