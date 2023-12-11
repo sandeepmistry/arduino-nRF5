@@ -18,6 +18,7 @@ jobs:
           - BBCmicrobit
           - BBCmicrobitV2
           - CalliopeMini
+          - CalliopeminiV3
           - Generic_nRF51822:chip=xxac
           - Generic_nRF52832
           - Generic_nRF52833
