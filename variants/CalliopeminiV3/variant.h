@@ -34,10 +34,11 @@ extern "C"
 #define PIN_A0				(0)
 #define PIN_A1				(1)
 #define PIN_A2				(2)
-#define PIN_A3				(3)
+#define PIN_A3				(18)
 #define PIN_A4				(4)
 #define PIN_A5				(10)
 #define PIN_A6				(29)
+#define PIN_A7				(16)
 
 #define ADC_RESOLUTION 10
 static const uint8_t A0 = PIN_A0;
@@ -47,6 +48,7 @@ static const uint8_t A3 = PIN_A3;
 static const uint8_t A4 = PIN_A4;
 static const uint8_t A5 = PIN_A5;
 static const uint8_t A6 = PIN_A6;
+static const uint8_t A7 = PIN_A7;
 
 // Serial
 

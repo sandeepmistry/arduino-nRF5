@@ -27,7 +27,7 @@ const uint32_t g_ADigitalPinMap[] = {
   17, // SCK
   1,  // MISO
   13, // MOSI
-  29, // A5, C16_A1RX (Calliope change)
+  29, // A7, C16_A1RX (Calliope change)
 
   // 17 + 18
   34, // P1.02 C17 (Calliope exclusive pin)
