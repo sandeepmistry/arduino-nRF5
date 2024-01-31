@@ -442,6 +442,52 @@ Generic_nRF51822.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRC
 Generic_nRF51822.menu.lfclk.lfsynt=Synthesized
 Generic_nRF51822.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
 
+
+AdafruitBleUartFriend.name=Adafruit BLE UART Friend
+
+AdafruitBleUartFriend.upload.tool=sandeepmistry:openocd
+AdafruitBleUartFriend.upload.target=nrf51
+AdafruitBleUartFriend.upload.maximum_size=262144
+
+AdafruitBleUartFriend.bootloader.tool=sandeepmistry:openocd
+
+AdafruitBleUartFriend.build.mcu=cortex-m0
+AdafruitBleUartFriend.build.f_cpu=16000000
+AdafruitBleUartFriend.build.board=ADAFRUIT_BLE_UART_FRIEND
+AdafruitBleUartFriend.build.core=nRF5
+AdafruitBleUartFriend.build.variant=AdafruitBleUartFriend
+AdafruitBleUartFriend.build.variant_system_lib=
+AdafruitBleUartFriend.build.extra_flags=-DNRF51
+AdafruitBleUartFriend.build.float_flags=
+AdafruitBleUartFriend.build.chip=xxac
+AdafruitBleUartFriend.build.ldscript=nrf51_{build.chip}.ld
+
+AdafruitBleUartFriend.menu.softdevice.none=None
+AdafruitBleUartFriend.menu.softdevice.none.softdevice=none
+AdafruitBleUartFriend.menu.softdevice.none.softdeviceversion=
+
+AdafruitBleUartFriend.menu.softdevice.s110=S110
+AdafruitBleUartFriend.menu.softdevice.s110.softdevice=s110
+AdafruitBleUartFriend.menu.softdevice.s110.softdeviceversion=8.0.0
+AdafruitBleUartFriend.menu.softdevice.s110.upload.maximum_size=151552
+AdafruitBleUartFriend.menu.softdevice.s110.build.extra_flags=-DNRF51 -DS110 -DNRF51_S110
+AdafruitBleUartFriend.menu.softdevice.s110.build.ldscript=armgcc_s110_nrf51822_{build.chip}.ld
+
+AdafruitBleUartFriend.menu.softdevice.s130=S130
+AdafruitBleUartFriend.menu.softdevice.s130.softdevice=s130
+AdafruitBleUartFriend.menu.softdevice.s130.softdeviceversion=2.0.1
+AdafruitBleUartFriend.menu.softdevice.s130.upload.maximum_size=151552
+AdafruitBleUartFriend.menu.softdevice.s130.build.extra_flags=-DNRF51 -DS130 -DNRF51_S130
+AdafruitBleUartFriend.menu.softdevice.s130.build.ldscript=armgcc_s130_nrf51822_{build.chip}.ld
+
+AdafruitBleUartFriend.menu.lfclk.lfxo=Crystal Oscillator
+AdafruitBleUartFriend.menu.lfclk.lfxo.build.lfclk_flags=-DUSE_LFXO
+AdafruitBleUartFriend.menu.lfclk.lfrc=RC Oscillator
+AdafruitBleUartFriend.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRC
+AdafruitBleUartFriend.menu.lfclk.lfsynt=Synthesized
+AdafruitBleUartFriend.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
+
+
 BBCmicrobit.name=BBC micro:bit
 
 BBCmicrobit.vid.0=0x0d28
