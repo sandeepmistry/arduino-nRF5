@@ -12,6 +12,13 @@ stlink.program.protocol=stlink-v2
 stlink.program.tool=openocd
 stlink.program.setup_command=transport select hla_swd; set WORKAREASIZE 0x4000;
 
+stlinkob.name=ST-Link V2-1 (ST-Link On-Board)
+stlinkob.communication=USB
+stlinkob.protocol=stlink-v2-1
+stlinkob.program.protocol=stlink-v2-1
+stlinkob.program.tool=openocd
+stlinkob.program.setup_command=transport select hla_swd; set WORKAREASIZE 0x4000;
+
 cmsisdap.name=CMSIS-DAP
 cmsisdap.communication=USB
 cmsisdap.protocol=cmsis-dap
